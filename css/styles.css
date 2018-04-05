@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+a {
+    color: white;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -20,12 +24,12 @@ header nav {
     height: 4rem;
     flex: 1;
     overflow: hidden;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(61, 43, 82);
 }
 
 header nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 header nav li:hover {
@@ -39,8 +43,8 @@ header nav li {
     color: white;
 }
 
-
 main {
+    flex: 1;
     min-height: 30vh;
     text-align: center;
     display: flex;
@@ -49,14 +53,14 @@ main {
 
 .main1 {
     flex: 2;
-    background-color: rgba(224, 222, 235, 0.65);
+    /*    background-color: rgba(0, 0, 0, 0.65);*/
     margin: 5px;
     border-radius: 10%;
 }
 
 .main2 {
     flex: 4;
-    background-color: rgba(224, 222, 235, 0.65);
+    /*    background-color: rgba(0, 0, 0, 0.65);*/
     margin: 10px;
     border-radius: 10%;
 }
@@ -64,7 +68,7 @@ main {
 .main3 {
 
     flex: 2;
-    background-color: rgba(224, 222, 235, 0.65);
+    /*    background-color: rgba(0, 0, 0, 0.65);*/
     margin: 5px;
     border-radius: 10%;
 }
@@ -73,7 +77,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #555;
+    background-color: rgb(61, 43, 82);
+    /*    background-color: #555;*/
 }
 
 footer nav ul {
@@ -90,6 +95,7 @@ footer nav li {
     border: 1px;
     border-style: solid;
     box-shadow: 5px 5px;
+    margin: 1rem;
 }
 
 .footerpics {
@@ -97,9 +103,15 @@ footer nav li {
     border-radius: 25%;
 }
 
-h2 {
+h2,
+h3,
+h4 {
     text-align: center;
     text-decoration: underline;
+    color: white;
+}
+
+li {
     color: white;
 }
 
@@ -110,14 +122,17 @@ h2 {
 #sidepic {
     width: 80%;
     border-radius: 15%;
+    /*    margin-top: 1rem;*/
 }
 
 #show {
     width: 60%;
+    /*    margin: 1rem;*/
 }
 
 #montage {
     width: 60%;
+    /*    margin-bottom: 1rem;*/
 }
 
 #josh {
