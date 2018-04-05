@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(../images/wall.jpg);
+    background-size: 50rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    height: 4rem;
+    flex: 1;
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+    color: white;
+}
+
+
+main {
+    min-height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main1 {
+    flex: 2;
+    background-color: rgba(224, 222, 235, 0.65);
+    margin: 5px;
+    border-radius: 10%;
+}
+
+.main2 {
+    flex: 4;
+    background-color: rgba(224, 222, 235, 0.65);
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.main3 {
+
+    flex: 2;
+    background-color: rgba(224, 222, 235, 0.65);
+    margin: 5px;
+    border-radius: 10%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #555;
+}
+
+footer nav ul {
+    display: flex;
+}
+
+footer nav li {
+    list-style-type: none;
+    font-size: .75em;
+    padding: 1em;
+}
+
+.pics {
+    border: 1px;
+    border-style: solid;
+    box-shadow: 5px 5px;
+}
+
+.footerpics {
+    height: 2rem;
+    border-radius: 25%;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+#logo {
+    height: 4rem;
+}
+
+#sidepic {
+    width: 80%;
+    border-radius: 15%;
+}
+
+#show {
+    width: 60%;
+}
+
+#montage {
+    width: 60%;
+}
+
+#josh {
+    width: 60%;
+    border-radius: 20%;
+}
+
+#zane {
+    width: 60%;
+    border-radius: 20%;
+}
+
+#dan {
+    width: 90%;
+    border-radius: 20%;
+}
+
+#eddy {
+    width: 90%;
+    border-radius: 20%;
+}
+
+#kenny {
+    width: 90%;
+    border-radius: 20%;
+}
+
+#may12 {
+    width: 60%
+}
+
+
+@media screen and (max-width: 40rem) {
+    .main1,
+    .main2,
+    .main3,
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
+}
