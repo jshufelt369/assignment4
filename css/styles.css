@@ -91,6 +91,16 @@ footer nav li {
     padding: 1em;
 }
 
+form p {
+    display: flex;
+    margin-bottom: 1em;
+    color: white;
+}
+form label {
+    flex-basis: 33%;
+}
+
+
 .pics {
     border: 1px;
     border-style: solid;
