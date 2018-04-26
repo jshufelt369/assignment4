@@ -11,7 +11,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url(../images/wall.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/wall.jpg);
     background-size: 50rem;
 }
 
@@ -54,9 +54,13 @@ main {
 
 .main1 {
     flex: 2;
-    /*    background-color: rgba(0, 0, 0, 0.65);*/
+/*        background-color: rgba(0, 0, 0, 0.65);*/
     margin: 5px;
     border-radius: 10%;
+}
+
+ul li {
+    text-align: left;
 }
 
 .main2 {
@@ -184,7 +188,7 @@ li {
     header,
     main,
     footer,
-    form p  {
+    form p {
         flex-direction: column;
     }
 }
